@@ -180,7 +180,6 @@ public class GameScreenPuntos extends BaseScreen {
         jugador.detach();
         jugador.remove();
     }
-
     @Override
     public void render(float delta) {
         //Controlamos el tiempo que ha pasado en segundos. Con el tiempo actual menos el tiempo en el que ha empezado, la diferencia es el tiempo que ha pasado
